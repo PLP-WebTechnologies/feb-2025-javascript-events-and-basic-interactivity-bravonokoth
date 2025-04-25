@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Slideshow */
+.slideshow {
+    text-align: center;
+}
+
+.slideshow img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s;
+}
+
+/* Tabs */
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.tab-btn {
+    padding: 10px;
+    border: none;
+    background: #eee;
+}
+
+.tab-btn.active {
+    background: #007bff;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Form */
+form div {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Animation for hover */
+#event-text:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
